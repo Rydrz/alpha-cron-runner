@@ -1,1 +1,6 @@
-{ "build": "pip install -r requirements.txt", "start": "python modules/daily_tasks.py" }
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "start": "python modules/daily_tasks.py"
+}
